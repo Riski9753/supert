@@ -1,0 +1,49 @@
+.hari{
+    
+    float: right;
+    font-size: 16px;
+}
+
+#clock{
+    position: absolute;
+    top: 75px;
+    right: 0;
+   
+}
+
+.carousel-inner{
+    width: 640px;
+    border-radius: 32px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.wer{
+    background-color: rgb(34, 34, 34);
+    color: aliceblue;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,lfr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+    
+}
+.grid >article{
+    box-shadow: 1px 1px 3px 3px black;
+}
+.img{
+    object-fit: cover;
+}
+.card-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .card {
+    margin-left: 10px; /* Mengatur jarak antara card */
+  }
+  
